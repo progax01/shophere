@@ -22,7 +22,25 @@
     <title>SHOPEO || An Ecommerce Website</title>
   </head>
   <body>
-   
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBWjki8Otya_aewI6NSfkLpakkwwU3GOPs",
+    authDomain: "shopeo-1727f.firebaseapp.com",
+    projectId: "shopeo-1727f",
+    storageBucket: "shopeo-1727f.appspot.com",
+    messagingSenderId: "409016477253",
+    appId: "1:409016477253:web:2db7a96252b279c302652c"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
 <?php 
 include_once "header.php";
  
