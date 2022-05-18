@@ -16,14 +16,16 @@
    <link rel="stylesheet" type="text/css" href="../styling/index.css">
    <link rel="stylesheet" type="text/css" href="../styling/header.css">
    <link rel="stylesheet" type="text/css" href="../styling/footer.css">
+  
     <script src="../JS/header.js"></script>
      <script src="../JS/index.js"></script>
-    <title>Ecommerce</title>
+    <title>SHOPEO || An Ecommerce Website</title>
   </head>
   <body>
    
 <?php 
 include_once "header.php";
+ 
 ?>
 
 
@@ -32,7 +34,7 @@ include_once "header.php";
     <img src="https://cdn.shopify.com/s/files/1/1825/4753/files/banner-custom-image-1_1920x_820b9a4b-0795-4480-a6c2-717e4d64df90_1920x.jpg?v=1638362928" class="img-fluid img-responsive imgmain" style="width: 100%;">
   </div>
   <div class="row">
-    <label class="offerpara">BRIGHTEN UP SOMEONE’S DAY UNDER $50. <a href="#"><b>SHOP NOW</b></a></label>
+    <label class="offerpara text-center">BRIGHTEN UP SOMEONE’S DAY UNDER $50. <a href="#"><b>SHOP NOW</b></a></label>
   </div>
 </section>
 
@@ -688,7 +690,7 @@ include_once "header.php";
 
 <div class="cardbelowcontainer">
   <div class="cardbelow loop1">
-    <a href="#"  style="text-decoration: none;">
+    <a href="perfumes.php"  style="text-decoration: none;">
    <div class="box1"> <div>
     <img src="https://shopme.online/image/cache/catalog/journal3/categories/Perfume%20Banner-200x250h.jpg" class="img-fluid img-responsive img3">
   </div>
