@@ -20,30 +20,12 @@
     <script src="../JS/header.js"></script>
      <script src="../JS/index.js"></script>
     <title>SHOPEO || An Ecommerce Website</title>
+
   </head>
   <body>
-  <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-    apiKey: "AIzaSyBWjki8Otya_aewI6NSfkLpakkwwU3GOPs",
-    authDomain: "shopeo-1727f.firebaseapp.com",
-    projectId: "shopeo-1727f",
-    storageBucket: "shopeo-1727f.appspot.com",
-    messagingSenderId: "409016477253",
-    appId: "1:409016477253:web:2db7a96252b279c302652c"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-</script>
+   
 <?php 
 include_once "header.php";
- 
 ?>
 
 
@@ -51,8 +33,8 @@ include_once "header.php";
   <div class="row">
     <img src="https://cdn.shopify.com/s/files/1/1825/4753/files/banner-custom-image-1_1920x_820b9a4b-0795-4480-a6c2-717e4d64df90_1920x.jpg?v=1638362928" class="img-fluid img-responsive imgmain" style="width: 100%;">
   </div>
-  <div class="row">
-    <label class="offerpara text-center">BRIGHTEN UP SOMEONE’S DAY UNDER $50. <a href="#"><b>SHOP NOW</b></a></label>
+  <div class="row text-center">
+    <label class="offerpara">BRIGHTEN UP SOMEONE’S DAY UNDER $50. <a href="#"><b>SHOP NOW</b></a></label>
   </div>
 </section>
 
@@ -690,25 +672,22 @@ include_once "header.php";
   
   <div>
 <div class="w3-bar w3-black" style="margin-bottom: 20px;">
-    <button class="btn" onclick="openCity('top')">Top Category</button>
-  <button class="btn" onclick="openCity('beauty')">Beauty & Perfumes</button>
-  <button class="btn" onclick="openCity('clothes')">Clothes</button>
-  <button class="btn" onclick="openCity('accessories')">Accessories</button>
-  <button class="btn" onclick="openCity('electronics')">Electronics</button>
-  <button class="btn" onclick="openCity('fashion')">Fashion</button>
-  <button class="btn" onclick="openCity('shoes')">Shoes</button>
-  <button class="btn" onclick="openCity('watch')">Watch</button>
+  <button class="btn" onclick="openCity1('top')">Top Category</button>
+  <button class="btn" onclick="openCity1('beauty')">Beauty & Perfumes</button>
+  <button class="btn" onclick="openCity1('clothes')">Clothes</button>
+  <button class="btn" onclick="openCity1('accessories')">Accessories</button>
+  <button class="btn" onclick="openCity1('electronics')">Electronics</button>
+  <button class="btn" onclick="openCity1('fashion')">Fashion</button>
+  <button class="btn" onclick="openCity1('shoes')">Shoes</button>
+  <button class="btn" onclick="openCity1('watch')">Watch</button>
 </div>
 
-
-
-
 <div class="content">
-<div id="top" class="city">
+<div id="top" class="city1">
 
 <div class="cardbelowcontainer">
   <div class="cardbelow loop1">
-    <a href="perfumes.php"  style="text-decoration: none;">
+    <a href="perfumes.php" style="text-decoration: none;">
    <div class="box1"> <div>
     <img src="https://shopme.online/image/cache/catalog/journal3/categories/Perfume%20Banner-200x250h.jpg" class="img-fluid img-responsive img3">
   </div>
@@ -733,6 +712,7 @@ include_once "header.php";
 </div> -->
 </a>
   </div>
+
 <div class="cardbelow loop2">
     <a href="#"  style="text-decoration: none;">
    <div class="box1"> <div>
@@ -777,7 +757,7 @@ include_once "header.php";
   
 </div>
 
-<div id="beauty" class="city">
+<div id="beauty" class="city1">
 <div class="cardbelow3">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
@@ -800,7 +780,7 @@ include_once "header.php";
 </div>
 </div>
 
-<div id="clothes" class="city">
+<div id="clothes" class="city1">
 <div class="cardbelow3">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
@@ -823,7 +803,7 @@ include_once "header.php";
 </div>
 </div>
 
-<div id="accessories" class="city">
+<div id="accessories" class="city1">
 <div class="cardbelow4">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
@@ -846,7 +826,7 @@ include_once "header.php";
 </div>
 </div>
 
-<div id="electronics" class="city">
+<div id="electronics" class="city1">
 <div class="cardbelow5">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
@@ -869,7 +849,7 @@ include_once "header.php";
 </div>
 </div>
 
-<div id="fashion" class="city">
+<div id="fashion" class="city1">
 <div class="cardbelow6">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
@@ -892,7 +872,7 @@ include_once "header.php";
 </div>
 </div>
 
-<div id="shoes" class="city">
+<div id="shoes" class="city1">
 <div class="cardbelow7">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
@@ -915,7 +895,7 @@ include_once "header.php";
 </div>
 </div>
 
-<div id="watch" class="city">
+<div id="watch" class="city1">
 <div class="cardbelow8">
   <div class="cardbelow">
     <a href="#"  style="text-decoration: none;">
